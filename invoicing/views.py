@@ -392,7 +392,7 @@ def send_invoice_email(request, invoice_id):
         subject = 'Your Invoice'
         text_content = 'Here is your invoice.'
         html_content = f'Here is your invoice. <a href="{button_url}">Mark as Paid</a>'
-        from_email = 'testbot.orefox@gmail.com'
+        from_email = ''
         to = [client_email]
 
         # Create and send email

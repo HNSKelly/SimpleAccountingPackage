@@ -359,7 +359,7 @@ def send_quote_email(request, quote_id):
         subject = 'Your quote'
         text_content = 'Here is your quote.'
         html_content = f'Here is your quote. <a href="{button_url}">Mark as Confirmed</a>'
-        from_email = 'testbot.orefox@gmail.com'
+        from_email = ''
         to = [client_email]
 
         # Create and send email
